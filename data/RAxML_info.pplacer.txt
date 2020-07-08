@@ -1,0 +1,68 @@
+
+
+This is RAxML version 7.2.8 released by Alexandros Stamatakis in October 2010.
+
+With greatly appreciated code contributions by:
+Andre Aberer (TUM)
+Simon Berger (TUM)
+John Cazes (TACC)
+Michael Ott (TUM)
+Nick Pattengale (UNM)
+Wayne Pfeiffer (SDSC)
+Akifumi S. Tanabe (Univ. Tsukuba)
+
+
+Alignment has 8854 distinct alignment patterns
+
+Proportion of gaps and completely undetermined characters in this alignment: 89.68%
+
+RAxML rapid hill-climbing mode
+
+Using 1 distinct models/data partitions with joint branch length optimization
+
+
+Executing 1 inferences on the original alignment using 1 user-specifed trees
+
+All free model parameters will be estimated by RAxML
+GAMMA model of rate heteorgeneity, ML estimate of alpha-parameter
+
+GAMMA Model parameters will be estimated up to an accuracy of 0.1000000000 Log Likelihood units
+
+Partition: 0
+Alignment Patterns: 8854
+Name: No Name Provided
+DataType: AA
+Substitution Matrix: WAG
+Fixed Base Frequencies:
+
+
+
+
+RAxML was called as follows:
+
+raxmlHPC -T 12 -s pplacer_ref211.msa.phylip -n PolB_Refs20191224_linsi -m PROTGAMMAWAG -g pplacer_ref211.msa.midpoint.ETE3.nwk 
+
+
+Testing which likelihood implementation to use
+Standard Implementation full tree traversal time: 0.963861
+Subtree Equality Vectors for gap columns full tree traversal time: 0.262621
+... using SEV-based implementation
+
+Inference[0]: Time 37.293066 GAMMA-based likelihood -446015.217671, best rearrangement setting 5
+alpha[0]: 1.417299 
+
+
+Conducting final model optimizations on all 1 trees under GAMMA-based models ....
+
+Inference[0] final GAMMA-based Likelihood: -446015.215646 tree written to file /lustre/aptmp/endo/Tara/TOPCv4/Pplacer_reference_tree/RAxML_result.PolB_Refs20191224_linsi
+
+
+Starting final GAMMA-based thorough Optimization on tree 0 likelihood -446015.215646 .... 
+
+Final GAMMA-based Score of best tree -446015.215646
+
+Program execution info written to /lustre/aptmp/endo/Tara/TOPCv4/Pplacer_reference_tree/RAxML_info.PolB_Refs20191224_linsi
+Best-scoring ML tree written to: /lustre/aptmp/endo/Tara/TOPCv4/Pplacer_reference_tree/RAxML_bestTree.PolB_Refs20191224_linsi
+
+Overall execution time: 40.095830 secs or 0.011138 hours or 0.000464 days
+
