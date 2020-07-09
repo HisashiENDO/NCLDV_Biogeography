@@ -17,7 +17,7 @@ Nature Ecology & Evolution (in revision)
 - R (v.3.6.2 or higher)
 
 # Data
-Input files for pplacer.
+Input files for pplacer
 - ```pplacer_ref211.msa```: Multiple alignments of PolB reference sequences for pplacer analysis
 - ```RAxML_result.pplacer.nwk```: Phylogenetic tree (newick format) constructed from the reference sequences
 - ```RAxML_info.pplacer.txt```: Information on the reference phylogenetic tree
