@@ -7,7 +7,7 @@ This git repository contains the files and scripts that are used to generate nor
 Biogeography of marine giant viruses reveals their interplay with eukaryotes and ecological functions
 by
 Endo H, Blanc-Mathieu R, Li Y, Salazar G, Henry N, Labadie K, de Vargas C, Sullivan MB, Bowler C, Wincker P, Karp-Boss L, Sunagawa S & Ogata H
-Nature Ecology & Evolution (in revision)
+Nature Ecology & Evolution, 2020, doi:https://www.nature.com/articles/s41559-020-01288-w
 ```
 
 # Prerequisites
